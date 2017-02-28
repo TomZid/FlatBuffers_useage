@@ -1,0 +1,12 @@
+PODS:
+  - FlatBuffers-ObjC (0.0.2)
+
+DEPENDENCIES:
+  - FlatBuffers-ObjC
+
+SPEC CHECKSUMS:
+  FlatBuffers-ObjC: 0d13dbb9ff0e19567ea107b1ee3687340ce1c8b2
+
+PODFILE CHECKSUM: 8b135833bbb86378fb191fabed728098c69bcc17
+
+COCOAPODS: 1.1.1

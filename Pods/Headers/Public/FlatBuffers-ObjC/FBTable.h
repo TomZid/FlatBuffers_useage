@@ -1,0 +1,1 @@
+../../../FlatBuffers-ObjC/FlatBuffers-ObjC/FBTable.h

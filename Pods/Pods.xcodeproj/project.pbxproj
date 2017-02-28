@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		389D65AA7C9BB8071A23BF8B1719B74A /* FBMutableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEDF17AA9FA3FEDB959CDC74A559F60 /* FBMutableData.m */; };
+		3B0F6E6D653F325D117E3793BDF5C430 /* FlatBuffers-ObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9722FADF981CB07297040F11CC2B0E45 /* FlatBuffers-ObjC-dummy.m */; };
+		4FD909E3E6104942683C763CF552D022 /* FBMutableData.h in Headers */ = {isa = PBXBuildFile; fileRef = 11FB72C37358DC714CCD9167F32FEF1A /* FBMutableData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BDF8904C966FF7BA8D138D0B9B4267 /* FBTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C7C50B1DDBB4B881B60F0C6B3C61C2 /* FBTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CF1745FDD23B0834C8706A9BE3F9EF3 /* Pods-FaltBuffers_useage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FC3395439562AD88FE4D5192E3BF32 /* Pods-FaltBuffers_useage-dummy.m */; };
+		710F34F0272E316506860249823BC03B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8460330F71D4D2F755AAAECCEE0A5B9B /* FBMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C675AB23F61625AB57A612CB32A29 /* FBMutableArray.m */; };
+		CBF35537A1C083342CF54BDFD07049E8 /* FBConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C19812577C7E212761D8C8CF1942AC /* FBConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDE57B8F36BFE0ED5B2FAC3150A62CA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E7AAE6396A901BB155C2973716FE2317 /* FBTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0158C281D30BC7AFB006C88AF25CA8B7 /* FBTable.m */; };
+		F8B204BC32702EFB085EDA83216579E8 /* FBMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D6A5668B29376C696ACAD6638A14198 /* FBMutableArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E948373F712E372F80A874DC7B371C37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C048B27D41A02AD8F17327447A80B3;
+			remoteInfo = "FlatBuffers-ObjC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0158C281D30BC7AFB006C88AF25CA8B7 /* FBTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBTable.m; path = "FlatBuffers-ObjC/FBTable.m"; sourceTree = "<group>"; };
+		102C675AB23F61625AB57A612CB32A29 /* FBMutableArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBMutableArray.m; path = "FlatBuffers-ObjC/FBMutableArray.m"; sourceTree = "<group>"; };
+		11FB72C37358DC714CCD9167F32FEF1A /* FBMutableData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBMutableData.h; path = "FlatBuffers-ObjC/FBMutableData.h"; sourceTree = "<group>"; };
+		120992A8FD182E435047E5ED7A4B5510 /* libFlatBuffers-ObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libFlatBuffers-ObjC.a"; path = "libFlatBuffers-ObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C7C50B1DDBB4B881B60F0C6B3C61C2 /* FBTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBTable.h; path = "FlatBuffers-ObjC/FBTable.h"; sourceTree = "<group>"; };
+		3A9CCBAB98B16BB132D8FAC8BD1CB049 /* Pods-FaltBuffers_useage-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaltBuffers_useage-frameworks.sh"; sourceTree = "<group>"; };
+		4A1A5891F1A6EEB10CC88167F36B4242 /* Pods-FaltBuffers_useage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FaltBuffers_useage-acknowledgements.markdown"; sourceTree = "<group>"; };
+		75FC3395439562AD88FE4D5192E3BF32 /* Pods-FaltBuffers_useage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FaltBuffers_useage-dummy.m"; sourceTree = "<group>"; };
+		7B124BB6F1842B24C75F4486627847D7 /* Pods-FaltBuffers_useage-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaltBuffers_useage-resources.sh"; sourceTree = "<group>"; };
+		85DB6FDF9E1EAA8C0057199295990AC5 /* Pods-FaltBuffers_useage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaltBuffers_useage.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9722FADF981CB07297040F11CC2B0E45 /* FlatBuffers-ObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlatBuffers-ObjC-dummy.m"; sourceTree = "<group>"; };
+		9D6A5668B29376C696ACAD6638A14198 /* FBMutableArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBMutableArray.h; path = "FlatBuffers-ObjC/FBMutableArray.h"; sourceTree = "<group>"; };
+		9EEDF17AA9FA3FEDB959CDC74A559F60 /* FBMutableData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBMutableData.m; path = "FlatBuffers-ObjC/FBMutableData.m"; sourceTree = "<group>"; };
+		A6C19812577C7E212761D8C8CF1942AC /* FBConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBConstants.h; path = "FlatBuffers-ObjC/FBConstants.h"; sourceTree = "<group>"; };
+		C47D64D565D6614B22E9FEBCF1387FBC /* FlatBuffers-ObjC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FlatBuffers-ObjC.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D12CD4DB770811AD06ECE33C5CE05B98 /* Pods-FaltBuffers_useage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaltBuffers_useage.debug.xcconfig"; sourceTree = "<group>"; };
+		DCC9522332A3A9E07DB0F00FD27505FB /* libPods-FaltBuffers_useage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FaltBuffers_useage.a"; path = "libPods-FaltBuffers_useage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD48F98B88AA711BD055D884A8B1B94 /* Pods-FaltBuffers_useage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FaltBuffers_useage-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF0EB2124320130A5DB448C72392CE6E /* FlatBuffers-ObjC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlatBuffers-ObjC-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		114979E3A2D0BB9D640F7C03D4F2EF67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE57B8F36BFE0ED5B2FAC3150A62CA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69AC43E0E14A808746570B3E4B32EF96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710F34F0272E316506860249823BC03B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31CD7DA8EFC6E7836FE66D016F288FF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F80D2D9EC0573B7E7016F97E05194D5 /* FlatBuffers-ObjC */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4460E400F95A562B6704869182410B27 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C47D64D565D6614B22E9FEBCF1387FBC /* FlatBuffers-ObjC.xcconfig */,
+				9722FADF981CB07297040F11CC2B0E45 /* FlatBuffers-ObjC-dummy.m */,
+				EF0EB2124320130A5DB448C72392CE6E /* FlatBuffers-ObjC-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FlatBuffers-ObjC";
+			sourceTree = "<group>";
+		};
+		4F80D2D9EC0573B7E7016F97E05194D5 /* FlatBuffers-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				A6C19812577C7E212761D8C8CF1942AC /* FBConstants.h */,
+				9D6A5668B29376C696ACAD6638A14198 /* FBMutableArray.h */,
+				102C675AB23F61625AB57A612CB32A29 /* FBMutableArray.m */,
+				11FB72C37358DC714CCD9167F32FEF1A /* FBMutableData.h */,
+				9EEDF17AA9FA3FEDB959CDC74A559F60 /* FBMutableData.m */,
+				15C7C50B1DDBB4B881B60F0C6B3C61C2 /* FBTable.h */,
+				0158C281D30BC7AFB006C88AF25CA8B7 /* FBTable.m */,
+				4460E400F95A562B6704869182410B27 /* Support Files */,
+			);
+			name = "FlatBuffers-ObjC";
+			path = "FlatBuffers-ObjC";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				31CD7DA8EFC6E7836FE66D016F288FF3 /* Pods */,
+				A0D9F769A8F5248B040835A50ABF8C91 /* Products */,
+				92EB1D0FD2B9DBAFF60B53D4D7F82F1E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		92EB1D0FD2B9DBAFF60B53D4D7F82F1E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E48953A6AD1D6BD3755BB60AF13DC823 /* Pods-FaltBuffers_useage */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A0D9F769A8F5248B040835A50ABF8C91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				120992A8FD182E435047E5ED7A4B5510 /* libFlatBuffers-ObjC.a */,
+				DCC9522332A3A9E07DB0F00FD27505FB /* libPods-FaltBuffers_useage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E48953A6AD1D6BD3755BB60AF13DC823 /* Pods-FaltBuffers_useage */ = {
+			isa = PBXGroup;
+			children = (
+				4A1A5891F1A6EEB10CC88167F36B4242 /* Pods-FaltBuffers_useage-acknowledgements.markdown */,
+				DCD48F98B88AA711BD055D884A8B1B94 /* Pods-FaltBuffers_useage-acknowledgements.plist */,
+				75FC3395439562AD88FE4D5192E3BF32 /* Pods-FaltBuffers_useage-dummy.m */,
+				3A9CCBAB98B16BB132D8FAC8BD1CB049 /* Pods-FaltBuffers_useage-frameworks.sh */,
+				7B124BB6F1842B24C75F4486627847D7 /* Pods-FaltBuffers_useage-resources.sh */,
+				D12CD4DB770811AD06ECE33C5CE05B98 /* Pods-FaltBuffers_useage.debug.xcconfig */,
+				85DB6FDF9E1EAA8C0057199295990AC5 /* Pods-FaltBuffers_useage.release.xcconfig */,
+			);
+			name = "Pods-FaltBuffers_useage";
+			path = "Target Support Files/Pods-FaltBuffers_useage";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E51A78BA058F6C1D5261D175D5478802 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF35537A1C083342CF54BDFD07049E8 /* FBConstants.h in Headers */,
+				F8B204BC32702EFB085EDA83216579E8 /* FBMutableArray.h in Headers */,
+				4FD909E3E6104942683C763CF552D022 /* FBMutableData.h in Headers */,
+				52BDF8904C966FF7BA8D138D0B9B4267 /* FBTable.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C3490A4A451F4C17BAD4C1617D2EE32B /* Pods-FaltBuffers_useage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6270C160D418936DF5F9045ADB7DA8 /* Build configuration list for PBXNativeTarget "Pods-FaltBuffers_useage" */;
+			buildPhases = (
+				9FC9CB87E35D8C59DE3072344B4229F2 /* Sources */,
+				114979E3A2D0BB9D640F7C03D4F2EF67 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45DE51B27995DB014E4DAC8553424E36 /* PBXTargetDependency */,
+			);
+			name = "Pods-FaltBuffers_useage";
+			productName = "Pods-FaltBuffers_useage";
+			productReference = DCC9522332A3A9E07DB0F00FD27505FB /* libPods-FaltBuffers_useage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D9C048B27D41A02AD8F17327447A80B3 /* FlatBuffers-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C65688AF948960BEE8BB394A66C4E2D /* Build configuration list for PBXNativeTarget "FlatBuffers-ObjC" */;
+			buildPhases = (
+				675F787506DB2545E528B31841C1C18F /* Sources */,
+				69AC43E0E14A808746570B3E4B32EF96 /* Frameworks */,
+				E51A78BA058F6C1D5261D175D5478802 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlatBuffers-ObjC";
+			productName = "FlatBuffers-ObjC";
+			productReference = 120992A8FD182E435047E5ED7A4B5510 /* libFlatBuffers-ObjC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A0D9F769A8F5248B040835A50ABF8C91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9C048B27D41A02AD8F17327447A80B3 /* FlatBuffers-ObjC */,
+				C3490A4A451F4C17BAD4C1617D2EE32B /* Pods-FaltBuffers_useage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		675F787506DB2545E528B31841C1C18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8460330F71D4D2F755AAAECCEE0A5B9B /* FBMutableArray.m in Sources */,
+				389D65AA7C9BB8071A23BF8B1719B74A /* FBMutableData.m in Sources */,
+				E7AAE6396A901BB155C2973716FE2317 /* FBTable.m in Sources */,
+				3B0F6E6D653F325D117E3793BDF5C430 /* FlatBuffers-ObjC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC9CB87E35D8C59DE3072344B4229F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF1745FDD23B0834C8706A9BE3F9EF3 /* Pods-FaltBuffers_useage-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45DE51B27995DB014E4DAC8553424E36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FlatBuffers-ObjC";
+			target = D9C048B27D41A02AD8F17327447A80B3 /* FlatBuffers-ObjC */;
+			targetProxy = E948373F712E372F80A874DC7B371C37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3910FECC8042D23A2426286CF38F7751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85DB6FDF9E1EAA8C0057199295990AC5 /* Pods-FaltBuffers_useage.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		43912E541189722086E4E315E047AF38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C47D64D565D6614B22E9FEBCF1387FBC /* FlatBuffers-ObjC.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FlatBuffers-ObjC/FlatBuffers-ObjC-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B92FE81E8C5E60CD27023192B05DA6D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D12CD4DB770811AD06ECE33C5CE05B98 /* Pods-FaltBuffers_useage.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CF3CC9815C971737A8E27184A2EF0370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C47D64D565D6614B22E9FEBCF1387FBC /* FlatBuffers-ObjC.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FlatBuffers-ObjC/FlatBuffers-ObjC-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C65688AF948960BEE8BB394A66C4E2D /* Build configuration list for PBXNativeTarget "FlatBuffers-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43912E541189722086E4E315E047AF38 /* Debug */,
+				CF3CC9815C971737A8E27184A2EF0370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6270C160D418936DF5F9045ADB7DA8 /* Build configuration list for PBXNativeTarget "Pods-FaltBuffers_useage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92FE81E8C5E60CD27023192B05DA6D2 /* Debug */,
+				3910FECC8042D23A2426286CF38F7751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
